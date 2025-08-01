@@ -5,14 +5,16 @@ position: 2
 category: ""
 softwares:
   - Visual Studio Code / Cursor
-  - Operator Mono font + Vesper Theme
+  - IntelliJ IDEA
+  - DataGrip
+  - Operator Mono font + Tailwind Moon Blue Theme
   - iTerm + Oh My Zsh
   - Raycast
 
 hardwares:
   - Macbook Pro 14" 2023 (M3 Pro, 18GB RAM, 512GB SSD)
   - Dell P3221D 32" QHD Monitor
-  - Logitech MX Mechanical Mini Keyboard
+  - Logitech MX Mechanical Mini / Aula F75
   - Logitech MX Master 2S
 
 others:

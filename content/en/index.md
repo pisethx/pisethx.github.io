@@ -7,26 +7,29 @@ technologies:
   - JavaScript / TypeScript
   - React / Next.js
   - Vue / Nuxt
+  - Node.js / Express
+  - Java / Spring Boot / Microservices
+  - MySQL / PosgreSQL / Oracle DB
   - React Native / Expo
   - Dart / Flutter
   - HTML5 / CSS3
-  - MUI / TailwindCSS / ShadCN
-  - Node.js / Express
+  - TailwindCSS / ShadCN / MUI
   - RestAPI / GraphQL
-  - Git / Github Actions
+  - Git / Github / Gitlab / Bitbucket
+  - Docker / CI/CD / Github Actions
 ---
 
 <img src="/profile.png" width="200" height="200" alt=""/>
 
-Piseth's here 👋 . Currently, I am working as a Frontend Developer 🧑🏼‍💻 . With Bachelor's degree in Computer Science 👨🏼‍🎓.
+Piseth's here 👋 . Currently, I am working as a Senior Full Stack Developer 🧑🏼‍💻 . With Bachelor's degree in Computer Science 👨🏼‍🎓.
 
 Based in Cambodia 🇰🇭 .
 
 ## About Me
 
-I'm a passionate frontend developer with 4+ years of professional experience building modern web applications 🌐 .
+I'm a passionate full stack engineer with 5+ years of professional experience building modern applications 🌐 .
 
-Currently exploring mobile app development, building both native and cross-platform apps 📱 .
+I began my career as a frontend developer and have since transitioned into full stack development 📚 .
 
 Some of my work is available on [Github](https://github.com/pisethx).
 
