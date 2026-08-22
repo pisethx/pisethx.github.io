@@ -2,16 +2,29 @@
   "name": "pisethx",
   "version": "1.0.0",
   "private": true,
+  "type": "module",
   "scripts": {
-    "dev": "nuxt",
+    "dev": "nuxt dev",
     "build": "nuxt build",
-    "start": "nuxt start",
     "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
     "deploy": "npm run generate"
   },
   "dependencies": {
-    "@nuxt/content": "^1.15.0",
-    "@nuxt/content-theme-docs": "^0.8.0",
-    "nuxt": "^2.14.7"
-  }
+    "@iconify-json/lucide": "^1.2.68",
+    "@iconify-json/simple-icons": "^1.2.53",
+    "@nuxt/content": "^3.8.0",
+    "@nuxt/ui": "4.1.0",
+    "nuxt": "^4.5.2",
+    "tailwindcss": "^4.1.16",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  },
+  "engines": {
+    "node": ">=22.19.0"
+  },
+  "packageManager": "npm@11.19.0"
 }
