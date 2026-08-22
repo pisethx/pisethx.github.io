@@ -24,9 +24,13 @@ if (!page.value) {
 
 const { data: surround } = await useAsyncData(
   () => `surround-${path.value}`,
-  () => queryCollectionItemSurroundings('docs', path.value, {
-    fields: ['description']
-  }),
+  async () => {
+    const items = await queryCollectionItemSurroundings('docs', path.value)
+    return items?.map(item => item
+      ? { ...item, description: undefined }
+      : item
+    ) ?? null
+  },
   { watch: [path] }
 )
 
