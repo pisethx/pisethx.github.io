@@ -7,7 +7,7 @@ withDefaults(defineProps<{
   orientation?: 'horizontal' | 'vertical'
 }>(), {
   name: 'Monespiseth Ly',
-  description: 'Senior Full Stack Developer · Cambodia',
+  description: 'Senior Full Stack Developer',
   src: '/profile.png',
   size: '3xl',
   orientation: 'horizontal'
