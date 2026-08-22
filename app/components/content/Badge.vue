@@ -2,7 +2,7 @@
   <UBadge
     color="primary"
     variant="subtle"
-    class="mb-4"
+    class="mb-6 block w-fit"
   >
     <slot />
   </UBadge>
