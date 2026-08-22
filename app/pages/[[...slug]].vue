@@ -58,6 +58,8 @@ const headline = computed(() => findPageHeadline(navigation?.value, page.value?.
           :label="page.badge"
           variant="subtle"
           color="primary"
+          size="lg"
+          class="rounded-full"
         />
       </template>
     </UPageHeader>

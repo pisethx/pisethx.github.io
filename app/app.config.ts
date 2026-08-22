@@ -15,6 +15,17 @@ export default defineAppConfig({
         root: 'border-t border-default',
         left: 'text-sm text-muted'
       }
+    },
+    pageCard: {
+      slots: {
+        root: 'rounded-xl'
+      }
+    },
+    badge: {
+      defaultVariants: {
+        color: 'primary',
+        variant: 'subtle'
+      }
     }
   },
   seo: {
@@ -40,6 +51,10 @@ export default defineAppConfig({
       to: 'https://x.com/pisethx',
       target: '_blank',
       'aria-label': 'X'
+    }, {
+      icon: 'i-lucide-mail',
+      to: 'mailto:pisethlee111@gmail.com',
+      'aria-label': 'Email'
     }]
   },
   footer: {
@@ -55,6 +70,10 @@ export default defineAppConfig({
       to: 'https://x.com/pisethx',
       target: '_blank',
       'aria-label': 'X'
+    }, {
+      icon: 'i-lucide-mail',
+      to: 'mailto:pisethlee111@gmail.com',
+      'aria-label': 'Email'
     }]
   },
   toc: {
