@@ -1,22 +1,5 @@
 ---
 title: Hello, World!
-description: ""
-position: 1
-category: ""
-technologies:
-  - JavaScript / TypeScript
-  - React / Next.js
-  - Vue / Nuxt
-  - Node.js / Express
-  - Java / Spring Boot / Microservices
-  - MySQL / PosgreSQL / Oracle DB
-  - React Native / Expo
-  - Dart / Flutter
-  - HTML5 / CSS3
-  - TailwindCSS / ShadCN / MUI
-  - RestAPI / GraphQL
-  - Git / Github / Gitlab / Bitbucket
-  - Docker / CI/CD / Github Actions
 ---
 
 <img src="/profile.png" width="200" height="200" alt=""/>
@@ -35,7 +18,24 @@ Some of my work is available on [Github](https://github.com/pisethx).
 
 ## Technologies I use
 
-<list :items="technologies"></list>
+::list
+---
+items:
+  - JavaScript / TypeScript
+  - React / Next.js
+  - Vue / Nuxt
+  - Node.js / Express
+  - Java / Spring Boot / Microservices
+  - MySQL / PosgreSQL / Oracle DB
+  - React Native / Expo
+  - Dart / Flutter
+  - HTML5 / CSS3
+  - TailwindCSS / ShadCN / MUI
+  - RestAPI / GraphQL
+  - Git / Github / Gitlab / Bitbucket
+  - Docker / CI/CD / Github Actions
+---
+::
 
 ## Contact
 
