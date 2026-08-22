@@ -27,7 +27,8 @@ withDefaults(defineProps<{
     class="not-prose mb-8"
     :ui="{
       name: 'text-highlighted',
-      description: 'text-muted'
+      description: 'text-muted',
+      avatar: '!size-20'
     }"
   />
 </template>
