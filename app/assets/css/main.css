@@ -6,3 +6,29 @@
 @theme static {
   --font-sans: 'Public Sans', sans-serif;
 }
+
+/*
+ * iPad/iOS Safari: sticky headers with backdrop-filter often break hit-testing,
+ * so taps on navbar controls do nothing. Disable the blur and keep an opaque
+ * compositor layer so buttons receive touches.
+ */
+header.sticky {
+  -webkit-backdrop-filter: none !important;
+  backdrop-filter: none !important;
+  background-color: var(--ui-bg, #fff) !important;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+}
+
+.dark header.sticky {
+  background-color: var(--ui-bg, #0a0a0a) !important;
+}
+
+header.sticky a,
+header.sticky button {
+  position: relative;
+  z-index: 1;
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
+  pointer-events: auto;
+}

@@ -4,6 +4,12 @@ export default defineAppConfig({
       primary: 'emerald',
       neutral: 'slate'
     },
+    header: {
+      slots: {
+        // Avoid backdrop-blur: iPad Safari often stops receiving taps on sticky blurred headers.
+        root: 'bg-default border-b border-default h-(--ui-header-height) sticky top-0 z-50 isolate'
+      }
+    },
     footer: {
       slots: {
         root: 'border-t border-default',
