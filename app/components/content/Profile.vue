@@ -7,7 +7,7 @@ withDefaults(defineProps<{
   orientation?: 'horizontal' | 'vertical'
 }>(), {
   name: 'Monespiseth Ly',
-  description: 'Senior Full Stack Developer · Cambodia',
+  description: 'Senior Full Stack Developer',
   src: '/profile.png',
   size: '3xl',
   orientation: 'horizontal'
@@ -27,7 +27,8 @@ withDefaults(defineProps<{
     class="not-prose mb-8"
     :ui="{
       name: 'text-highlighted',
-      description: 'text-muted'
+      description: 'text-muted',
+      avatar: '!size-20'
     }"
   />
 </template>
